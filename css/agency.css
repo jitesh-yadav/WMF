@@ -498,7 +498,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 #mobileApp img{
-	margin-left:25px;
+	margin:auto;
 }
 #mobileApp h2.section-heading{ 
 	margin-bottom:40px;
@@ -950,4 +950,10 @@ body {
 
 .modal-body ul li{
 	list-style-position:inside;
+}
+
+@media(min-width:768px) and (max-width:991px){
+	.contactListItem{
+		display:none !important;
+	}
 }
